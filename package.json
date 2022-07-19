@@ -1,0 +1,25 @@
+{
+  "name": "web-push-lab",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "rimraf dev-dist && vite --force",
+    "build": "vue-tsc --noEmit && vite build --base=/web-push-lab/",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.3",
+    "firebase": "^9.9.0",
+    "ky": "^0.31.0",
+    "vue": "^3.2.25"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.3",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.9",
+    "vite-plugin-pwa": "^0.12.3",
+    "vue-tsc": "^0.34.7",
+    "workbox-core": "^6.5.3",
+    "workbox-precaching": "^6.5.3"
+  }
+}
